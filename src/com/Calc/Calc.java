@@ -6,4 +6,5 @@ public interface Calc {
 	public int mul (int a ,int b);
 	public double div (int a ,int b);
 
+	
 }

@@ -9,7 +9,7 @@ public class Drivered {
         CalcImplementation calc = new CalcImplementation();
         System.out.print("Enter the first number : ");
         int first = scan.nextInt();
-        System.out.print("Enter the second number : ");
+        System.out.print("Enter the second numberjhgegvgjbb : ");
         int second = scan.nextInt();
 
         System.out.println("----------------------------------------------");
@@ -27,6 +27,8 @@ public class Drivered {
         switch (choice) {
             case 1: {
                 // add operation here
+            	res=calc.add(first, second);
+            	System.out.println("addition : "+res);
             }
             break;
 

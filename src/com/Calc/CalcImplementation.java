@@ -10,8 +10,10 @@ public class CalcImplementation  implements Calc {
 	}
 	@Override
 	public double div(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// implemented by maniteja
+		int c=a/b;
+		return c;
+		
 	}
 	@Override
 	public int mul(int a, int b) {

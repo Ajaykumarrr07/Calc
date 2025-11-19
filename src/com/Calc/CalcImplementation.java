@@ -15,11 +15,17 @@ public class CalcImplementation  implements Calc {
 	}
 	@Override
 	public int mul(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// implemented by Ajay mul method
+		
+		int c = a*b;
+				
+		return c;
 	} @Override
 	public double sub(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// implemented by Ajay sub method
+		int c = a-b;
+		
+		return c;
+		
 	}
 }

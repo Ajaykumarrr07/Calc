@@ -14,10 +14,14 @@ public class Drivered {
 
         System.out.println("----------------------------------------------");
         System.out.println("1 is +");
-        System.out.println("2 is -");
+        System.out.println("2 is /");
         System.out.println("3 is *");
-        System.out.println("4 is /");
+        System.out.println("4 is -");
         System.out.print("Enter your choice : ");
+        
+        
+        double res = 0;
+        
         int choice = scan.nextInt();
 
         switch (choice) {
@@ -32,12 +36,18 @@ public class Drivered {
             break;
 
             case 3: {
-                // multiply operation here
+             	// implemented by Ajay mul method
+                res=calc.mul(second, choice);
+                System.out.println("multiplication : "+res);
+            	
             }
             break;
 
             case 4: {
-                // divide operation here
+            	
+            	// implemented by Ajay sub method
+                res=calc.sub(second, choice);
+                System.out.println("substraction : "+res);
             }
             break;
 
@@ -46,6 +56,9 @@ public class Drivered {
             }
         }
 
+        
+        
+     
      
     }
 }

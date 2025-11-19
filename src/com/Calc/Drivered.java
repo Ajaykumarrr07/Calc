@@ -9,7 +9,7 @@ public class Drivered {
         CalcImplementation calc = new CalcImplementation();
         System.out.print("Enter the first number : ");
         int first = scan.nextInt();
-        System.out.print("Enter the second number : ");
+        System.out.print("Enter the second numberjhgegvgjbb : ");
         int second = scan.nextInt();
 
         System.out.println("----------------------------------------------");
@@ -27,6 +27,8 @@ public class Drivered {
         switch (choice) {
             case 1: {
                 // add operation here
+            	res=calc.add(first, second);
+            	System.out.println("addition : "+res);
             }
             break;
 
@@ -37,7 +39,7 @@ public class Drivered {
 
             case 3: {
              	// implemented by Ajay mul method
-                res=calc.mul(second, choice);
+                res=calc.mul(first, second);
                 System.out.println("multiplication : "+res);
             	
             }
@@ -46,7 +48,7 @@ public class Drivered {
             case 4: {
             	
             	// implemented by Ajay sub method
-                res=calc.sub(second, choice);
+                res=calc.sub(first, second);
                 System.out.println("substraction : "+res);
             }
             break;
